@@ -5,7 +5,7 @@
   "description": "This extension demonstrates a 'browser action' with kittens.",
   "version": "1",
 
-  "update_url": "https://raw.github.com/aggroskater/chromium-extension/dist/chromium-update.xml",
+  "update_url": "https://raw.github.com/aggroskater/chromium-extension/master/dist/chromium-update.xml",
 
   "browser_action": {
     "default_icon": "icon.png",
