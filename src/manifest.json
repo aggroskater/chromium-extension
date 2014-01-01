@@ -3,7 +3,7 @@
 
   "name": "One-click Kittens",
   "description": "This extension demonstrates a 'browser action' with kittens.",
-  "version": "1",
+  "version": "2",
 
   "update_url": "https://raw.github.com/aggroskater/chromium-extension/master/dist/chromium-update.xml",
 
