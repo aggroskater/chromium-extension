@@ -1,0 +1,21 @@
+Technically speaking, this shouldn't work according to 
+
+http://developer.chrome.com/extensions/hosting.html
+
+which states that those serving their own crx files must use either
+
+1.) Content type "application/x-chrome-extension"
+
+or
+
+2.) File suffix is ".crx" and both of the following are true
+2.1) The file is NOT served with "X-Content-Type-Options: nosniff"
+2.2) The file IS served with an empty string for the content type or 
+one of the following: "text/plain", "application/octet-stream",
+"unknown/unknown", "application/unknown", or "*/*"
+
+However, I suspect this is only relevant for having the Chromium browser 
+detect the crx file as an installable so that it may automatically prompt 
+the user to install it rather than download it as a file. Because doing the 
+check for updates now option in the extensions panel works and pulls the 
+update.
