@@ -7,11 +7,21 @@
 
   "update_url": "https://raw.github.com/aggroskater/chromium-extension/master/dist/chromium-update.xml",
 
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
-  },
-  "permissions": [
-    "https://secure.flickr.com/"
-  ]
+//  "browser_action": {
+//    "default_icon": "icon.png",
+//    "default_popup": "popup.html"
+//  },
+//  "permissions": [
+//    "https://secure.flickr.com/"
+//  ]
+
+  "content_scripts": [
+    {
+      "matches": ["http://news.google.com/*"],
+      "js": ["scripts/require.js","scripts/require-cs.js","scripts/main.js"]
+    }
+  ],
+
+  "web_accessible_resources": ["scripts/helper/*.js"]
+
 }
