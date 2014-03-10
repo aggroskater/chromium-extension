@@ -23,3 +23,14 @@ https://github.com/nonowarn/content-script-with-requirejs
 
 This could have all sorts of subtle problems that I'm not experienced enough 
 to watch out for or even realize are there.
+
+UPDATE: Mon 10 Mar 2014 0126:
+
+https://github.com/salsita/chrome-skeleton/
+
+That. That right there. I like it. I like it a lot. Now, if only there were 
+a simple but comprehensive use-case for... every other browser. Trying to make 
+sense of Firefox's documentation is an increasingly aggravating excercise. 
+There are years --well, techinically, DECADES-- of antiquated, deprecated, 
+or otherwise irrelevant or incorrect cruft that makes getting your bearings 
+on the project fucking impossible.
