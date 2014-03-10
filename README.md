@@ -34,3 +34,11 @@ sense of Firefox's documentation is an increasingly aggravating excercise.
 There are years --well, techinically, DECADES-- of antiquated, deprecated, 
 or otherwise irrelevant or incorrect cruft that makes getting your bearings 
 on the project fucking impossible.
+
+And no, "just use the Add-On SDK" is not a valid rebuttal. If you find 
+yourself having to write an entire fucking SDK on top of your application in 
+order for anyone who's not already familiar with the project to actually make 
+heads or tails of anything, you're doing it wrong.
+
+But who the fuck am I kidding. It's all JS. It's nothing but "doing it wrong" 
+all the way down.
